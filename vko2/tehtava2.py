@@ -62,5 +62,3 @@ code4 = (
 
 print ("Kolmenumeroinen koodi:", code3)
 print ("Nelinumeroinen koodi:", code4)
-
-
