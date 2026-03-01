@@ -6,3 +6,4 @@ while tuuma >= 0:
     tuuma = float(input("Tuuma: "))
 
 print ("Ohjelma lopetettu.")
+

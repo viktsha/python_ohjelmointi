@@ -17,3 +17,4 @@ while arvaus != luku:
 print ("Oikein!")
 
 
+
