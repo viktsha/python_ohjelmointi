@@ -19,4 +19,3 @@ while luku != "":
 print("Ohjelma lopetettu.")
 print("Pinenin luku:", min_luku)
 print("Suurin luku:", max_luku)
-ff
