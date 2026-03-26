@@ -1,0 +1,44 @@
+def yhteenlasku(a, b):
+    return a + b
+
+def vahennyslasku(a, b):
+    return a - b
+
+def kertolasku(a, b):
+    return a * b
+
+def jakolasku(a, b):
+    return a / b
+
+
+print("TERVETULOA KÄYTTÄMÄÄN LASKINTA!")
+
+while True:
+    print("\nValitse mitä toimintoa haluat käyttää:")
+    print("A: Yhteenlasku")
+    print("B: Vähennyslasku")
+    print("C: Kertolasku")
+    print("D: Jakolasku")
+
+    valinta = input("Valintasi (A-D, Q lopettaa): ").upper()
+
+    if valinta == "Q":
+        print("Ohjelma lopetetaan.")
+        break
+
+    a = float(input("Anna eka luku: "))
+    b = float(input("Anna toka luku: "))
+
+    if valinta == "A":
+        print("Lukujen summa on:", yhteenlasku(a, b))
+    elif valinta == "B":
+        print("Lukujen erotus on:", vahennyslasku(a, b))
+    elif valinta == "C":
+        print("Lukujen tulo on:", kertolasku(a, b))
+    elif valinta == "D":
+        if b != 0:
+            print("Lukujen osamäärä on:", jakolasku(a, b))
+        else:
+            print("Nollalla ei voi jakaa.")
+    else:
+        print("Virheellinen valinta tai luku.")
