@@ -14,3 +14,4 @@ oppilaat ["Kettu"] = ["Kettu", 10, "yhteiskunta"]
 del oppilaat["Vikki"]
 
 print(oppilaat)
+
